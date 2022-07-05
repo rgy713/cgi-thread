@@ -1,0 +1,148 @@
+key,english,japanese
+Hack,Hack,切断
+Pierce,Pierce,貫通
+Crush,Crush,クラッシュ
+MythUnit,MythUnit,神話ユニット
+SetAnimal,Set Animal,セトの動物
+Javelin Cavalry,Turma,トゥルマ
+Javelin Cavalry Hero,Turma (Hero),トゥルマ (英雄)
+AbstractArcher,Archer,射手
+Archer Atlantean Hero,Arcus Hero,アルカス (英雄)
+AbstractCavalry,Cavalry,騎兵
+Lancer Hero,Contarius Hero,コンタリウス (英雄)
+AbstractSiegeWeapon,Siege Weapon,攻城兵器
+AbstractInfantry,Infantry,歩兵
+LogicalTypeNonGreekUnit,Non Greek Unit,ギリシャ以外のユニット
+Tower,Tower,塔
+Tower Mirror,Tower Mirror,鏡の塔
+maxvelocity,Max Velocity,移動速度
+maxhitpoints,Max Hitpoints,最大ヒットポイント
+rechargetime,Recharge Time,リチャージ時間
+populationcount,Population Count,人口コスト
+trainpoints,Train Time,作成時間
+cost,Cost,コスト
+armor,Armor,防御力
+HandAttack,Hand Attack,直接攻撃
+RangedAttack,Ranged Attack,遠隔攻撃
+MaximumRange,Maximum Range,最大射程
+MinimumRange,Minimum Range,最小射程
+DamageBonus,Damage Bonus,ボーナスダメージ
+JumpAttack,Jump Attack,ジャンプ攻撃
+bounty,Bounty,報奨
+petrify,Petrify,石化
+Accuracy,Accuracy,命中精度
+MaxSpread,Max Spread,最大拡散範囲
+TrackRating,Track Rating,命中率
+UnintentionalDamageMultiplier,Unintentional Damage Multiplier,誤射ヒット時ダメージ倍率
+SpreadFactor,SpreadFactor,SpreadFactor
+AccuracyReductionFactor,AccuracyReductionFactor,AccuracyReductionFactor
+AimBonus,AimBonus,AimBonus
+Damage,Damage,ダメージ
+times,times,倍
+seconds,seconds,秒
+Gore,Gore,角突き攻撃
+Hero Ragnorok,Hero Ragnorok,ラグナレクの英雄
+Maceman Hero,Katapeltes (Hero),カタペルテス (英雄)
+Trident Soldier Hero,Destroyer (Hero),デストロイヤー (英雄)
+Royal Guard Hero,Fanatic (Hero),ファナティック (英雄)
+Swordsman Hero,Murmillo (Hero),ムルミロ (英雄)
+maxcontained,Carry Capacity,輸送定員
+Audrey,Carnivora,食人花
+Huntable,Huntable,狩猟動物
+Herdable,Herdable,家畜
+WildCrops,Berries Chicken Duck,ベリー、鶏、マガモ
+carrycapacity,Carry Capacity,運搬量
+MinRate,MinRate,MinRate
+AbstractVillager,Villager,町の人
+LogicalTypeCanBeHealed,Can Be Healed,回復可能ユニット
+land,Land,陸地
+movementtype,Movement Type,移動種別
+los,Line of Sight,視界
+buildlimit,Build Limit,作成限界数
+AbstractTemple,Temple,神殿
+HeightBonusMultiplier,Height Bonus Multiplier,高度差ボーナス
+HumanSoldier,Human Soldier,人間ユニット
+LogicalTypeMythUnitNotTitan,MythUnit Not Titan,神話ユニット（ティタン除く）
+FreezeAttack,Freeze Attack,石化攻撃
+LogicalTypePerseusCanStone,Perseus Can Stone,ペルセウス石化可能ユニット
+MythUnitInfantry,Myth Unit Infantry,神話歩兵ユニット
+LogicalTypeAbstractVillNotHero,Villager Not Hero,町の人（英雄市民除く）
+Hero,Hero,英雄
+NumberProjectiles,Number of Projectiles,同時発射数
+AbstractWall,Wall,壁
+Settlement Level 1,Town Center,町の中心
+water,Water,海
+ChargedRangedAttack,Charged Ranged Attack,チャージ遠隔攻撃
+Throw,Throw,投げ
+WhirlwindAttack,Whirlwind Attack,範囲攻撃
+LogicalTypeCanBeStoned,Can Be Stoned,石化可能ユニット
+Eat,Eat,食べる
+Poison,Poison,毒
+Siege Camp,Siege Works,攻城訓練所
+AbstractMonument,Monument,モニュメント
+Outpost,Obelisk,オベリスク
+lifespan,Lifespan,寿命
+LogicalTypeRamAttack,Ram Attack,杭攻撃可能ユニット
+LightningAttack,Petsuchos Beam,ペトスコスの光線
+LogicalTypeMummyMinionTarget,Mummy Minion Target,ミニヨン化可能ユニット
+ConvertAttack,Convert Attack,転向攻撃
+Swordsman,Murmillo,ムルミロ
+Trident Soldier,Trident Soldier,デストロイヤー
+Maceman,Katapeltes,カタペルテス
+Chieroballista,Chieroballista,ケイロバリスタ
+Villager Atlantean Hero,Villager Atlantean Hero,市民 (英雄)
+Boost,Boost,ブースト
+BuckAttack,BuckAttack,バックアタック
+air,Air,空中
+LogicalTypeAffectedByFrostGiant,Affected By Frost Giant,フロストジャイアント凍結可能ユニット
+Bounces,Bounces,ボーナス
+Sentinel Main,Sentinel,番人
+Archer Atlantean,Arcus,アルカス
+Lancer,Contarius,コンタリウス
+AutoLOS,Auto Line of Sight,自動視界
+Flying Medic,Caladria,カラドリア
+LogicalTypeAffectedByChaos,Affected By Chaos,混乱可能ユニット
+AbstractScout,Scout,斥候
+Jade Mine,Large Jade Mine,ヒスイ鉱山（大）
+Jade Mine Small,Medium Jade Mine,ヒスイ鉱山（中）
+Jade Mine Tiny,Small Jade Mine,ヒスイ鉱山（小）
+ShockAction,Shock,気絶
+ReflectDamage,Reflect Damage,反射ダメージ
+AutoGather,Auto Gather,自動収集
+amphibious,Amphibious,水陸
+Convert,Convert,転向
+Hippo,Hippo,カバ
+Rhinocerous,Rhinocerous,サイ
+ActionAttack,Attack,攻撃
+ActionBuild,Build,建築
+ActionGather,Gather,収集
+ActionTrain,Train,生産
+MilitaryBuilding,Military Building,軍事施設
+AbstractSettlement,Town Center,町の中心
+MythUnitArcher,Myth Unit Archer,神話射手ユニット
+LogicalTypeNavalMilitary,Naval Military,海戦ユニット
+FlyingUnit,Flying Unit,飛行ユニット
+Hero Greek Odysseus,Hero Greek Odysseus,オデュッセウス
+Hero Greek Chiron,Hero Greek Chiron,ケイロン
+Hero Greek Hippolyta,Hero Greek Hippolyta,ヒッポリュテ
+Pharaoh of Osiris,Pharaoh of Osiris,オシリスの息子
+BuildingClass,BuildingClass,建物
+Require,Require,必要条件
+CarryCapacity,Carry Capacity,運搬量
+researchpoints,Research Time,研究時間
+amount,amount,増減率
+relativity,relativity,relativity
+BasePercent,BasePercent,BasePercent
+target,Target,対象
+WorkRate,WorkRate,作業効率
+Gold Mine,Gold Mine,金鉱
+Gold Mine Small,Gold Mine Small,金鉱 (小)
+specificage,Specific Age,時代
+techstatus,Technology Requirements,必要技術
+civilization,civilization,文明
+Hitpoints,Hitpoints,ヒットポイント
+ArmorVulnerability,ArmorVulnerability,防御力
+Cost,Cost,必要資源
+MaximumVelocity,MaximumVelocity,最大速度
+LOS,Line of Sight,視界
+TrainPoints,Train Time,作成時間

@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="content-style-type" content="text/css">
+<title>書込ID発行/ログイン</title>
+<style type="text/css">
+<!--
+body,th,td { font-size: 13px; }
+th.bar { background-color:#666; color:#fff; }
+th.form,td.form { background-color:#fff; color:#000; }
+-->
+</style>
+</head>
+<body bgcolor="#F0F0F0" text="#000000">
+<div align="center">
+
+<table width="400" cellpadding="5">
+<tr>
+	<th class="bar">書込ID発行</th>
+</tr>
+</table>
+<p></p>
+<form action="!manager_cgi!" method="post">
+<input type="hidden" name="mode" value="new_user">
+<table cellpadding="7" cellspacing="0" border="1">
+<tr>
+	<th class="form">書込ID</th>
+	<td class="form">
+		<input type="text" name="id" size="12" maxlength="8" pattern="^[0-9A-Za-z]{4,8}$" required>
+		<font color="green">(英数字で4～8文字)</font>
+	</td>
+</tr>
+</table>
+<p></p>
+<input type="submit" value="書込IDを発行する">
+</form>
+
+<br><br>
+
+<table width="400" cellpadding="5">
+<tr>
+  <th class="bar">書込IDを認証する</th>
+</tr>
+</table>
+<p></p>
+<form action="!enter_cgi!" method="post">
+<input type="hidden" name="login" value="1">
+<table cellpadding="7" cellspacing="0" border="1">
+<tr>
+	<th class="form">書込ID</th>
+	<td class="form"><input type="text" name="id" size="12" maxlength="11" pattern="^[0-9]{2}.[0-9A-Za-z]{4,8}$" required></td>
+</tr><tr>
+	<th class="form">パスワード</th>
+	<td class="form"><input type="password" name="pw" size="12" maxlength="8" pattern="^[0-9A-Za-z_]{1,8}$" required></td>
+</tr>
+</table>
+<p></p>
+<input type="submit" value="書込IDを認証する">
+</form>
+
+</div>
+</body>
+</html>

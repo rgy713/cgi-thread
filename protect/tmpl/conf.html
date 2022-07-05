@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=shift_jis">
+<meta http-equiv="content-style-type" content="text/css">
+<style type="text/css">
+<!--
+body,td,th { font-size:80%; background:#f0f0f0; }
+p.msg { color:#006400; }
+div.main { text-align:center; }
+input.btn { width:130px; margin:1em; }
+-->
+</style>
+<title>登録の削除確認</title>
+</head>
+<body>
+<div class="main">
+<hr width="350">
+<h4>登録の削除確認</h4>
+<p class="msg">ログインID <b>!id!</b> を本当に削除しますか？</p>
+<form action="!manager_cgi!" method="post">
+<input type="hidden" name="mode" value="del_user">
+<input type="hidden" name="id" value="!id!">
+<input type="hidden" name="pw" value="!pw!">
+<input type="hidden" name="job" value="del">
+<input type="button" value="前画面に戻る" onclick="history.back()" class="btn">
+<input type="submit" value="登録を削除する" class="btn">
+</form>
+<hr width="350">
+</div>
+</body>
+</html>
